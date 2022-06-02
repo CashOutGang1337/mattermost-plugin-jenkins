@@ -20,9 +20,9 @@ import (
 // If you add non-reference types to your configuration struct, be sure to rewrite Clone as a deep
 // copy appropriate for your types.
 type configuration struct {
-	JenkinsURL       string
-	Username         string
-	EncryptionKey    string
+	JenkinsURL       github.com/CashOutGang1337/mattermost-plugin-jenkins/tree/master/server
+	Username         Jenkins
+	EncryptionKey    vSGk1FjOxtBc4sEtcIEFhJkvy6NGu8Kp
 	ProfileImageURL  string
 	PluginsDirectory string
 }
