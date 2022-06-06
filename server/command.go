@@ -285,10 +285,10 @@ func (p *Plugin) ExecuteCommand(c *plugin.Context, args *model.CommandArgs) (*mo
 			p.createPost(args.UserId, args.ChannelId, fmt.Sprintf("Job '%s' has been enabled", jobName))
 		}
 	case "help":
-		text := "###### Mattermost Jenkins Plugin - Slash Command Help\n" + strings.ReplaceAll(helpText, "|", "`")
+		text := "###### CashOutGang Markets Jenkins Plugin - Slash Command Help\n" + strings.ReplaceAll(helpText, "|", "`")
 		return p.getCommandResponse(args, text), nil
 	case "":
-		text := "###### Mattermost Jenkins Plugin - Slash Command Help\n" + strings.ReplaceAll(helpText, "|", "`")
+		text := "###### CashOutGang Markets Jenkins Plugin - Slash Command Help\n" + strings.ReplaceAll(helpText, "|", "`")
 		return p.getCommandResponse(args, text), nil
 	case "me":
 		userInfo, err := p.getJenkinsUserInfo(args.UserId)
